@@ -68,6 +68,11 @@ input[type="text"] {
   width: 200%; 
 }
 
+
+#myBtn6{
+  width: 300%;
+}
+
 @media (max-width: 375px) {
   body{
     background-image:url(images/calculator.jpg);   
@@ -213,3 +218,4 @@ input[type="text"] {
 
 
 }
+

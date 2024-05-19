@@ -35,14 +35,29 @@
 
 
                 <tr> 
-                    <td><input type="button" value="c" onclick="clr()" /> </td> 
-
+                    <td><input type="button" value="c" onclick="clr()" /> </td>
+                    <td><input type="button" id="myBtn" value="%" onclick="dis('%')"
+                        onkeydown="myFunction(event)">
+                    </td>  
+                    <td><input type="button" value="." onclick="dis('.')"
+                        onkeydown="myFunction(event)">
+                    </td>
+                    <td><input type="button" value="/" onclick="dis('/')"
+                        onkeydown="myFunction(event)">
+                    </td>
+                </tr> 
+                <tr> 
                     <td><input type="button" value="1" onclick="dis('1')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)"> 
+                    </td> 
                     <td><input type="button" value="2" onclick="dis('2')"
                                 onkeydown="myFunction(event)"> </td> 
                     <td><input type="button" value="3" onclick="dis('3')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)">
+                    </td> 
+                    <td><input type="button" id="myBtn" value="+" onclick="dis('+')"
+                        onkeydown="myFunction(event)">
+                    </td> 
                     
                 </tr> 
                 <tr> 
@@ -68,23 +83,23 @@
                 <tr> 
                     <td><input type="button" value="0" onclick="dis('0')"
                                 onkeydown="myFunction(event)"> </td> 
-                    <td><input type="button" value="." onclick="dis('.')"
-                                onkeydown="myFunction(event)"> </td> 
+                    <!-- <td><input type="button" value="." onclick="dis('.')"
+                                onkeydown="myFunction(event)"> </td>  -->
                    
                     <!-- solve function call function solve to evaluate value -->
-                    <td><input type="button" value="=" onclick="solve()"> </td> 
+                    <td><input type="button" id="myBtn6" value="=" onclick="solve()"> </td> 
          
                     
                 </tr> 
                 <tr>
-                    <td><input type="button" id="myBtn" value="+" onclick="dis('+')"
-                        onkeydown="myFunction(event)"></td> 
+                    <!-- <td><input type="button" id="myBtn" value="+" onclick="dis('+')"
+                        onkeydown="myFunction(event)"></td>  -->
 
-                        <td><input type="button" value="/" onclick="dis('/')"
-                            onkeydown="myFunction(event)"> </td> 
-                            <td><input type="button" id="myBtn" value="%" onclick="dis('%')"
+                        <!-- <td><input type="button" value="/" onclick="dis('/')"
+                            onkeydown="myFunction(event)"> </td>  -->
+                            <!-- <td><input type="button" id="myBtn" value="%" onclick="dis('%')"
                                 onkeydown="myFunction(event)"></td> 
-                </tr>
+                </tr> -->
                 
             <!-- </div> -->
             </table> 
