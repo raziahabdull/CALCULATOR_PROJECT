@@ -68,3 +68,74 @@ input[type="text"] {
   width: 200%; 
 }
 
+@media (max-width: 375px) {
+  body{
+    background-image:url(images/calculator.jpg);   
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: grid;
+      justify-content: center;
+      min-height: 95vh;
+    }
+
+.calculator{
+  border:2px solid beige;
+  width:620px;
+  margin-top: 2%;
+  backdrop-filter: blur(0.5px); /* Frosted glass effect */
+  background-color: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+  -webkit-backdrop-filter: blur(5px); 
+  backdrop-filter: blur(5px); 
+  border-radius: 50px;
+
+}
+
+table { 
+  margin-left: auto; 
+  margin-right: auto; 
+} 
+
+input[type="button"] { 
+  width: 80%; 
+  padding: 20px 20px; 
+  background-color: #dfb0da; 
+  color:white ; 
+  font-size: 24px; 
+  font-weight: bold; 
+  border: none; 
+  border-radius: 90px; 
+} 
+
+input[type="text"] { 
+  padding: 20px 30px; 
+  font-size: 24px; 
+  font-weight: bold; 
+  border: none; 
+  border-radius: 5px; 
+  border: 2px solid black; 
+  background-color: (255, 255, 255, 0.2)
+} 
+
+#numbers{
+  margin-top: 15%;
+}
+.myDiv{
+    margin-top: 15%;
+
+}
+#myBtn{
+  width: 100px;
+}
+
+#result{
+  margin-top: 20%;
+  margin-left: 18%;
+  height: 10%;
+}
+
+#equals{
+  width: 200%; 
+} 
+}
