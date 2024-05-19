@@ -7,7 +7,7 @@ body{
       min-height: 95vh;
     }
 
-.Calculator{
+.calculator{
   border:2px solid beige;
   width:620px;
   margin-top: 2%;
@@ -50,8 +50,15 @@ input[type="text"] {
 #numbers{
   margin-top: 15%;
 }
+.myDiv{
+    margin-top: 15%;
 
-#result2{
+}
+#myBtn{
+  width: 100px;
+}
+
+#result{
   margin-top: 20%;
   margin-left: 18%;
   height: 10%;
