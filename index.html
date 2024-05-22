@@ -21,47 +21,9 @@
 </head>
 <body>
     <div class = "calculator">
-        <table id="containerTable"> 
-            <input type="text" id="result" value="0"> 
-
-             
-            <div id="numbers">
-      
-            <tr> 
-                <td><input type="button" value="1" class="shadow"></td> 
-                <td><input type="button" value="2" class="shadow"></td> 
-                <td><input type="button" value="3" class="shadow"></td> 
-                <td><input type="button" value="/" class="shadow"></td> 
-            </tr> 
-            <tr> 
-                <td><input type="button" value="4" class="shadow"></td> 
-                <td><input type="button" value="5" class="shadow"></td> 
-                <td><input type="button" value="6" class="shadow"></td> 
-                <td><input type="button" value="*" class="shadow"></td> 
-            </tr> 
-            <tr> 
-                <td><input type="button" value="7" class="shadow"></td> 
-                <td><input type="button" value="8" class="shadow"></td> 
-                <td><input type="button" value="9" class="shadow"></td> 
-                <td><input type="button" value="-" class="shadow"></td> 
-            </tr> 
-            <tr> 
-                <td><input type="button" value="0" class="shadow"></td> 
-                <td><input type="button" value="." class="shadow"></td> 
-                <td><input type="button" value="+" id="equals" class="shadow"></td> 
-            </tr> 
-
-            <tr> 
-             
-                <td><input type="button" value="c" class="shadow"></td> 
-                <td><input type="button" value="%" class="shadow"></td>
-                <td><input type="button" value="=" id="equals" class="shadow"></td> 
-
-
-            </tr>
 
         <input type="text" id="result">
-        <table id="calcu"> 
+        <table id="containerTable"> 
              <!-- <input type="text" id="result2" value="0">  -->
 
                 <!-- <tr> 
@@ -74,59 +36,59 @@
 
 
                 <tr> 
-                    <td><input type="button" value="c" onclick="clr()" /> </td>
+                    <td><input type="button" value="c" onclick="clr()"  class="shadow"/> </td>
                     <td><input type="button" id="myBtn" value="%" onclick="dis('%')"
-                        onkeydown="myFunction(event)">
+                        onkeydown="myFunction(event)" class="shadow">
                     </td>  
                     <td><input type="button" value="." onclick="dis('.')"
-                        onkeydown="myFunction(event)">
+                        onkeydown="myFunction(event)" class="shadow">
                     </td>
                     <td><input type="button" value="/" onclick="dis('/')"
-                        onkeydown="myFunction(event)">
+                        onkeydown="myFunction(event)" class="shadow">
                     </td>
                 </tr> 
                 <tr> 
                     <td><input type="button" value="1" onclick="dis('1')"
-                                onkeydown="myFunction(event)"> 
+                                onkeydown="myFunction(event)" class="shadow"> 
                     </td> 
                     <td><input type="button" value="2" onclick="dis('2')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="3" onclick="dis('3')"
-                                onkeydown="myFunction(event)">
+                                onkeydown="myFunction(event)" class="shadow">
                     </td> 
                     <td><input type="button" id="myBtn" value="+" onclick="dis('+')"
-                        onkeydown="myFunction(event)">
+                        onkeydown="myFunction(event)" class="shadow">
                     </td> 
                     
                 </tr> 
                 <tr> 
                     <td><input type="button" value="4" onclick="dis('4')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="5" onclick="dis('5')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="6" onclick="dis('6')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="*" onclick="dis('*')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                 </tr> 
                 <tr> 
                     <td><input type="button" value="7" onclick="dis('7')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="8" onclick="dis('8')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="9" onclick="dis('9')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <td><input type="button" value="-" onclick="dis('-')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                 </tr> 
                 <tr> 
                     <td><input type="button" value="0" onclick="dis('0')"
-                                onkeydown="myFunction(event)"> </td> 
+                                onkeydown="myFunction(event)" class="shadow"> </td> 
                     <!-- <td><input type="button" value="." onclick="dis('.')"
                                 onkeydown="myFunction(event)"> </td>  -->
                    
                     <!-- solve function call function solve to evaluate value -->
-                    <td><input type="button" id="myBtn6" value="=" onclick="solve()"> </td> 
+                    <td><input type="button" id="myBtn6" value="=" onclick="solve()" class="shadow"> </td> 
          
                     
                 </tr> 
