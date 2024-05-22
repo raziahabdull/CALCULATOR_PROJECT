@@ -1,13 +1,4 @@
-"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
-        integrity= 
-"sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-        "https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
-        integrity= 
-"sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
+
 function dis(val) { 
     document.getElementById("result").value += val 
 } 
@@ -31,13 +22,16 @@ cal.onkeyup = function (event) {
         console.log(x); 
         solve(); 
     } 
-} 
+}
+
+
 
 // Function that evaluates the digit and return result 
 function solve() { 
-    let x = document.getElementById("result").value 
-    let y = math.evaluate(x) 
-    document.getElementById("result").value = y 
+    let input = document.getElementById("result").value 
+    let output = math.evaluate(input)
+    let res = Math.floor(output)
+    document.getElementById("result").value = res
 } 
 
 // Function that clear the display 
