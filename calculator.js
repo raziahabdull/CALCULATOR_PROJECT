@@ -12,10 +12,10 @@ function myFunction(event) {
         || event.key == '+' || event.key == '-' 
         || event.key == '*' || event.key == '/') 
         document.getElementById("result").value += event.key; 
-} 
+}
 
-var cal = document.getElementById("calcu"); 
-cal.onkeyup = function (event) { 
+var cal = document.getElementById("containerTable"); 
+cal.onkeyup = function(event) { 
     if (event.keyCode === 13) { 
         console.log("Enter"); 
         let x = document.getElementById("result").value 
@@ -29,9 +29,9 @@ cal.onkeyup = function (event) {
 // Function that evaluates the digit and return result 
 function solve() { 
     let input = document.getElementById("result").value 
-    let output = math.evaluate(input)
-    let res = Math.floor(output)
-    document.getElementById("result").value = res
+    let  output= math.evaluate(input)
+    //  let res = Math.floor(output)
+    document.getElementById("result").value = output
 } 
 
 // Function that clear the display 
